@@ -1,0 +1,42 @@
+ .main-btns[b-clsqzk5npp] {
+     background-color: #A91D3A;
+     color: white;
+ }
+
+ .main-btns>button[b-clsqzk5npp] {
+     color: white;
+ }
+
+ .main-btns>button:hover[b-clsqzk5npp] {
+     background-color: #C73659;
+     transition: 1s;
+ }
+
+ .main-btns>button:focus[b-clsqzk5npp] {
+     background-color: black;
+     transition: 0.3s;
+ }
+
+#mobileMode[b-clsqzk5npp]{
+    display: none;
+}
+
+ @media only screen and (max-width:750px) {
+
+    
+
+     img[b-clsqzk5npp] {
+         display: none;
+     }
+
+     #mobileMode[b-clsqzk5npp] {
+         display: block;
+     }
+
+     #normal[b-clsqzk5npp] {
+         display: none;
+     }
+
+
+
+ }

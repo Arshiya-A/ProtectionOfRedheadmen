@@ -1,0 +1,45 @@
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@media only screen and (max-width:750px) {
+
+    .first-image-header {
+        display: none;
+    }
+
+    .second-image-header {
+        display: none;
+    }
+
+    body {
+        background-color: #C73659;
+    }
+
+    .text-block {
+        bottom: 10%;
+        position: absolute;
+        color: white;
+        padding-left: 20px;
+    }
+
+    img {
+        display: block;
+    }
+
+    #mobileMode {
+        display: none;
+    }
+
+    #normal {
+        display: block;
+    }
+
+}

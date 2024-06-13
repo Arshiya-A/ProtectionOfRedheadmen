@@ -1,0 +1,27 @@
+@page "/donors"
+@using ProtectionOfRedheadmen.Client.Components
+@using global::Shared.Models
+@inject HttpClient Http
+@inject ILogger<Donors> Logger
+
+<h4 class="display-6 text-white display-6 fw-bold"><i class="bi bi-cash-coin"></i> Donors list
+    :
+</h4>
+<div class="container">
+    <div class="col">
+        <DonorsTable Data="@DonorsArray"></DonorsTable>
+    </div>
+</div>
+
+
+@code {
+
+    public Donor[] DonorsArray;
+
+    protected override async Task OnInitializedAsync()
+    {
+        DonorsArray = await Http.GetFromJsonAsync<Donor[]>("api/Donor/GetAllDonors");
+    }
+
+
+}

@@ -1,0 +1,35 @@
+@using global::Shared.Models
+<table class="table border border-1 border-white float-start">
+    <thead>
+        <tr>
+            <td class="m-2 border border-1 border-dark-subtle text-white">Name</td>
+            <td class="m-2 border border-1 border-dark-subtle text-white">Value</td>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Data == null)
+        {
+            <span class="text-white display-6">Loading......</span>
+        }
+        else
+        {
+            @foreach (var item in Data.Where(c => c.IsShowInDonorsList == true))
+            {
+                <tr>
+                    <td class="text-white">@item.Name</td>
+                    <td class="text-white border border-1 border-light">@item.Value $</td>
+                </tr>
+            }
+        }
+
+
+
+    </tbody>
+</table>
+
+
+@code {
+
+    [Parameter]
+    public Donor[] Data { get; set; }
+}

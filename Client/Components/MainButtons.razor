@@ -1,0 +1,81 @@
+@inject NavigationManager Navigation
+@inject ILogger<MainButtons> Logger
+
+
+<div class="btn-group w-50 main-btns" role="group" aria-label="Basic example" id="normal">
+    <button type="button" class="btn  fw-bold display-6" @onclick="GoToFacts">Facts
+        <hr class="button-line">
+    </button>
+    <button type="button" class="btn  fw-bold display-6" @onclick="GoToDonate">Donate
+        <hr class="button-line">
+    </button>
+    <button type="button" class="btn  fw-bold display-6" @onclick="GoToCreator">About creator
+        <hr class="button-line">
+    </button>
+    <button type="button" class="btn  fw-bold display-6" @onclick="GoToDonors">Donors list
+        <hr class="button-line">
+    </button>
+</div>
+
+<div class="main-btns" id="mobileMode">
+    <button type="button" class="btn  fw-bold display-6">Facts
+        <hr class="button-line">
+    </button>
+    <button type="button" class="btn  fw-bold display-6">Donate
+        <hr class="button-line">
+    </button>
+    <button type="button" class="btn  fw-bold display-6">About creator
+        <hr class="button-line">
+    </button>
+    <button type="button" class="btn  fw-bold display-6">Donors list
+        <hr class="button-line">
+    </button>
+</div>
+
+@code {
+    [Inject]
+    public IJSRuntime Js { get; set; }
+    private IJSObjectReference _jsModule;
+
+    protected override async Task OnInitializedAsync()
+    {
+        _jsModule = await Js.InvokeAsync<IJSObjectReference>("import", "./js/site.js");
+    }
+
+
+    private void GoToFacts()
+    {
+        Navigation.NavigateTo("facts");
+        GoToButtomScreen();
+    }
+
+    private void GoToCreator()
+    {
+        Navigation.NavigateTo("creator");
+        GoToButtomScreen();
+    }
+
+    private void GoToDonors()
+    {
+        Navigation.NavigateTo("donors");
+        GoToButtomScreen();
+    }
+
+    private void GoToDonate()
+    {
+        Navigation.NavigateTo("donate");
+        GoToButtomScreen();
+    }
+
+    private void GoToButtomScreen()
+    {
+        Navigation.LocationChanged += PageLocationChanged;
+    }
+    private void PageLocationChanged(object? sender, LocationChangedEventArgs e)
+    {
+        _jsModule.InvokeVoidAsync("ScrollDown", "scroll down");
+        Navigation.LocationChanged -= PageLocationChanged;
+    }
+
+
+}

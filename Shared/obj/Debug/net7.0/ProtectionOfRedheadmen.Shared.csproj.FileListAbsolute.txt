@@ -1,0 +1,11 @@
+D:\MyProjects\ProtectionOfRedheadmen\Shared\bin\Debug\net7.0\ProtectionOfRedheadmen.Shared.deps.json
+D:\MyProjects\ProtectionOfRedheadmen\Shared\bin\Debug\net7.0\ProtectionOfRedheadmen.Shared.dll
+D:\MyProjects\ProtectionOfRedheadmen\Shared\bin\Debug\net7.0\ProtectionOfRedheadmen.Shared.pdb
+D:\MyProjects\ProtectionOfRedheadmen\Shared\obj\Debug\net7.0\ProtectionOfRedheadmen.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyProjects\ProtectionOfRedheadmen\Shared\obj\Debug\net7.0\ProtectionOfRedheadmen.Shared.AssemblyInfoInputs.cache
+D:\MyProjects\ProtectionOfRedheadmen\Shared\obj\Debug\net7.0\ProtectionOfRedheadmen.Shared.AssemblyInfo.cs
+D:\MyProjects\ProtectionOfRedheadmen\Shared\obj\Debug\net7.0\ProtectionOfRedheadmen.Shared.csproj.CoreCompileInputs.cache
+D:\MyProjects\ProtectionOfRedheadmen\Shared\obj\Debug\net7.0\ProtectionOfRedheadmen.Shared.dll
+D:\MyProjects\ProtectionOfRedheadmen\Shared\obj\Debug\net7.0\refint\ProtectionOfRedheadmen.Shared.dll
+D:\MyProjects\ProtectionOfRedheadmen\Shared\obj\Debug\net7.0\ProtectionOfRedheadmen.Shared.pdb
+D:\MyProjects\ProtectionOfRedheadmen\Shared\obj\Debug\net7.0\ref\ProtectionOfRedheadmen.Shared.dll

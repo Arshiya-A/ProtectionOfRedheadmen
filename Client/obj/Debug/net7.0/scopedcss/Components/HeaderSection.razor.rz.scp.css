@@ -1,0 +1,45 @@
+
+@keyframes fadeInAnimation-b-mbhh7xw0s4 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@media only screen and (max-width:750px) {
+
+    .first-image-header[b-mbhh7xw0s4] {
+        display: none;
+    }
+
+    .second-image-header[b-mbhh7xw0s4] {
+        display: none;
+    }
+
+    body[b-mbhh7xw0s4] {
+        background-color: #C73659;
+    }
+
+    .text-block[b-mbhh7xw0s4] {
+        bottom: 10%;
+        position: absolute;
+        color: white;
+        padding-left: 20px;
+    }
+
+    img[b-mbhh7xw0s4] {
+        display: block;
+    }
+
+    #mobileMode[b-mbhh7xw0s4] {
+        display: none;
+    }
+
+    #normal[b-mbhh7xw0s4] {
+        display: block;
+    }
+
+}

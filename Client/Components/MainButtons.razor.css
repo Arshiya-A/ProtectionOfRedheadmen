@@ -1,0 +1,42 @@
+ .main-btns {
+     background-color: #A91D3A;
+     color: white;
+ }
+
+ .main-btns>button {
+     color: white;
+ }
+
+ .main-btns>button:hover {
+     background-color: #C73659;
+     transition: 1s;
+ }
+
+ .main-btns>button:focus {
+     background-color: black;
+     transition: 0.3s;
+ }
+
+#mobileMode{
+    display: none;
+}
+
+ @media only screen and (max-width:750px) {
+
+    
+
+     img {
+         display: none;
+     }
+
+     #mobileMode {
+         display: block;
+     }
+
+     #normal {
+         display: none;
+     }
+
+
+
+ }

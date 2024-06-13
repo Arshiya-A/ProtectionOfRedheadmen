@@ -1,0 +1,68 @@
+.first-image-header {
+    background-image: url("../Img/0.png");
+    height: 1024px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    animation: fadeInAnimation ease 3.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.red-section {
+    background-color: #C73659;
+
+    animation: fadeInAnimation ease 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+
+@media only screen and (max-width:750px) {
+
+    .first-image-header {
+        display: none;
+    }
+
+    .second-image-header {
+        display: none;
+    }
+
+    body {
+        background-color: #C73659;
+    }
+
+    .text-block {
+        bottom: 10%;
+        position: absolute;
+        color: white;
+        padding-left: 20px;
+    }
+
+    img {
+        display: none;
+    }
+
+    #mobileMode {
+        display: block;
+    }
+
+    #normal {
+        display: none;
+    }
+
+
+
+}

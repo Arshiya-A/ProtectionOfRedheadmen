@@ -1,0 +1,91 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = ProtectionOfRedheadmen.Client
+build_property.RootNamespace = ProtectionOfRedheadmen.Client
+build_property.ProjectDir = D:\MyProjects\ProtectionOfRedheadmen\Client\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\MyProjects\ProtectionOfRedheadmen\Client
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/MyProjects/ProtectionOfRedheadmen/Client/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MyProjects/ProtectionOfRedheadmen/Client/Components/DonorsTable.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xEb25vcnNUYWJsZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MyProjects/ProtectionOfRedheadmen/Client/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MyProjects/ProtectionOfRedheadmen/Client/Pages/Creator.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRvci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MyProjects/ProtectionOfRedheadmen/Client/Pages/Donate.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRG9uYXRlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MyProjects/ProtectionOfRedheadmen/Client/Pages/Donors.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRG9ub3JzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MyProjects/ProtectionOfRedheadmen/Client/Pages/Facts.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmFjdHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MyProjects/ProtectionOfRedheadmen/Client/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MyProjects/ProtectionOfRedheadmen/Client/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MyProjects/ProtectionOfRedheadmen/Client/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MyProjects/ProtectionOfRedheadmen/Client/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MyProjects/ProtectionOfRedheadmen/Client/Components/HeaderSection.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xIZWFkZXJTZWN0aW9uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-mbhh7xw0s4
+
+[D:/MyProjects/ProtectionOfRedheadmen/Client/Components/Main.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xNYWluLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-s1paqfu0u7
+
+[D:/MyProjects/ProtectionOfRedheadmen/Client/Components/MainButtons.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xNYWluQnV0dG9ucy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-clsqzk5npp
+
+[D:/MyProjects/ProtectionOfRedheadmen/Client/Components/MiddleSection.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xNaWRkbGVTZWN0aW9uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-wc1p7qii2l
+
+[D:/MyProjects/ProtectionOfRedheadmen/Client/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-xkbufet91p
+
+[D:/MyProjects/ProtectionOfRedheadmen/Client/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-3kgeo86zto
